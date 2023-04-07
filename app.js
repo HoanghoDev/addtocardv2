@@ -67,7 +67,8 @@ function initApp(){
 initApp();
 function addToCard(key){
     if(listCards[key] == null){
-        listCards[key] = products[key];
+        // copy product form list to list card
+        listCards[key] = JSON.parse(JSON.stringify(products[key]));
         listCards[key].quantity = 1;
     }
     reloadCard();
@@ -97,7 +98,6 @@ function reloadCard(){
     quantity.innerText = count;
 }
 function changeQuantity(key, quantity){
-    console.log(key, quantity);
     if(quantity == 0){
         delete listCards[key];
     }else{

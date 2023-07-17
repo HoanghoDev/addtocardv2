@@ -18,8 +18,6 @@ header .shopping{
 }
 header .shopping img{
     width: 40px;
-    height: 400px;
-    object-fit: cover;
 }
 header .shopping span{
     background: red;
@@ -49,6 +47,8 @@ header .shopping span{
 }
 .list .item img{
     width: 90%;
+    height: 430px;
+    object-fit: cover;
 }
 .list .item .title{
     font-weight: 600;

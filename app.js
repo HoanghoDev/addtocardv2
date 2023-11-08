@@ -16,39 +16,39 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
+        name: 'SCRAMBLED EGGS',
         image: '1.PNG',
-        price: 120000
+        price: 100
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
+        name: 'NUGGETS',
         image: '2.PNG',
-        price: 120000
+        price: 250
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
+        name: 'TOFU SALAD',
         image: '3.PNG',
-        price: 220000
+        price: 220
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
+        name: 'SOUP',
         image: '4.PNG',
-        price: 123000
+        price: 150
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
+        name: 'CAESER SALAD',
         image: '5.PNG',
-        price: 320000
+        price: 320
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
+        name: 'PIZZA',
         image: '6.PNG',
-        price: 120000
+        price: 400
     }
 ];
 let listCards  = [];
